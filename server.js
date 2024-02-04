@@ -17,6 +17,7 @@ mongoose
  .connect(DB, {useNewUrlParser: true, useUnifiedTopology: true})
  .then((res) => console.log('Connected to DB'))
  .catch((error) => console.log(error))
+ 
 
 const createPath = (page) => path.resolve(__dirname, 'ejs-views', `${page}.ejs`)
 
