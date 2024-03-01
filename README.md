@@ -1,2 +1,5 @@
 # Post Publisher
-# Node.js
+ 
+ Node.js
+
+ This is my project for creating and editing posts
